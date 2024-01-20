@@ -355,4 +355,13 @@ div#iframe-maps p {
     .conteudo-quaternario-secao2-paragrafo {
         width: 400px;
     }
+
+    div#iframe-maps p {
+        text-align: center;
+        width: 400px;
+    }
+
+    div#iframe-maps iframe {
+        max-width: 100%;
+    }
 }
