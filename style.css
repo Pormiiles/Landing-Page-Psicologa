@@ -84,7 +84,7 @@ main {
 }
 
 .conteudo-principal-botao {
-    margin-top: 10px;
+    margin-top: -20px;
     height: 35px;
     width: 155px;
     padding: 20px;
@@ -136,7 +136,7 @@ main {
 }
 
 #prgf3 {
-    padding: 25px;
+    padding: 22px;
     width: 512px;
     margin: auto;
     border-bottom: 0.4px solid #A6B1E1;
@@ -211,9 +211,8 @@ main {
 
 .conteudo-quaternario-secao2-paragrafo {
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0px 0px 0px 0px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     width: 512px;
     text-align: center;
     font-size: 14px;
