@@ -41,18 +41,46 @@
         <div class="conteudo-terciario">
             <p style="font-size: 24px; font-weight: bold;" class="conteudo-terciario-imagens">Galeria</p>
             <div class="conteudo-terciario-imagens-secao">
-                <picture>
-                    <source media="(max-width: 300px)" srcset="images/CARTAO DANIELAFRENTE_page-0001-peq.jpg">
-                    <img src="images/CARTAO DANIELAFRENTE_page-0001.jpg" class="conteudo-terciario-imagens-secao-item" style="width: 512px;">
-                </picture>
-                <picture>
-                    <source media="(max-width: 300px)" srcset="images/CARTAOVERSO_page-0001-peq.jpg">
-                    <img src="images/CARTAOVERSO_page-0001.jpg" class="conteudo-terciario-imagens-secao-item" style="width: 512px;">
-                </picture>
-                <picture>
-                    <source media="(max-width: 300px)" srcset="images/formatura_peq.jpg">
-                    <img src="images/formatura_grande.jpg" style="width: 512px;" class="conteudo-terciario-imagens-secao-item">
-                </picture>
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+            
+                        <div class="slide first">
+                            <picture>
+                                <source media="(max-width: 300px)" srcset="images/CARTAO DANIELAFRENTE_page-0001-peq.jpg">
+                                <img src="images/CARTAO DANIELAFRENTE_page-0001.jpg" class="conteudo-terciario-imagens-secao-item" style="width: 512px;">
+                            </picture>
+                        </div>
+                        
+                        <div class="slide">
+                            <picture>
+                                <source media="(max-width: 300px)" srcset="images/CARTAOVERSO_page-0001-peq.jpg">
+                                <img src="images/CARTAOVERSO_page-0001.jpg" class="conteudo-terciario-imagens-secao-item" style="width: 512px;">
+                            </picture>
+                        </div>
+            
+                        <div class="slide">
+                            <picture>
+                                <source media="(max-width: 300px)" srcset="images/imagem-daniela2-peq.jpg">
+                                <img src="images/imagem-daniela2.jpg" class="conteudo-terciario-imagens-secao-item" style="width: 512px;">
+                            </picture>
+                        </div>
+            
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+                    </div>
+            
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -78,6 +106,8 @@
 
     <footer class="conteudo-rodape">
         <p class="conteudo-rodape-paragrafo">Criado por André Lima.</p>
-    </footer>      
+    </footer>   
+    
+    <script src="script.js"></script>
 </body>
 </html>
